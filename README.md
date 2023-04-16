@@ -1,6 +1,6 @@
-# Example OOT project for Dev Board Micro
+# OOT project for Dev Board Micro
 
-This is a "Hello World" out-of-tree project for the [Coral Dev Board
+This is a out-of-tree project for the [Coral Dev Board
 Micro](https://coral.ai/products/dev-board-micro).
 
 This serves as a starting point for your own
@@ -16,13 +16,13 @@ which requires about 2.5 GB.
 ## 1. Clone this project and submodules
 
 ```bash
-git clone --recurse-submodules -j8 https://github.com/google-coral/coralmicro-out-of-tree-sample
+git clone --recurse-submodules -j8 git@github.com:teamrevspace/athena-x
 ```
 
 ## 2. Build the project
 
 ```bash
-cd coralmicro-out-of-tree-sample
+cd athena-x
 
 cmake -B out -S .
 
